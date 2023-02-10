@@ -1,0 +1,81 @@
+/** p y span comparten los atributos y se pueden agregar más etiquetas seguidas de comas*/
+p, span {
+    color: rebeccapurple;
+    width: 200px;
+    font-family: monospace;
+    text-align:start
+
+    /** Esto es un comentario dentro de un doc CSS
+    */ 
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+
+    /** para resumir se pueden colocar los valores uno al lado del otro como acá abajo (El orden es arriba-derecha-abajo-izquierda)*/
+    padding: 10px 15px 11px 20px;
+    
+    
+    color: blue;
+ font-weight: bold;
+ font-style: italic;
+ text-align: center;
+
+
+}
+
+li {
+    list-style: circle;
+    color: violet;
+}
+
+/** listar elementos como la forma de arriba no es tan conveniente, elegir clases o id */
+
+section{
+    width: 250px;
+    border: 10px solid darkred ;
+    margin: 10px;
+    padding: 100px;
+
+/* 3 selectores para que mismos elementos compartan características*/
+
+/* En HTML usando ID*/
+}
+#mi_parrafo_diferente {
+
+    color: aqua;
+    font-size: 40px;
+    border: 1px solid orangered;
+
+
+/* En HTML usando CLASS*/
+}
+.ejemplodeclases {
+    color: chartreuse;
+    font-size: 30px;
+    font-weight: bold;
+
+
+/*En HTML sin usar etiqueta (todos los h1 que esten en section tienen estas características) */
+}
+section h1 {
+    font-size: 50px;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+  }
+  .main {
+    width: 75%;
+    float: left;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
